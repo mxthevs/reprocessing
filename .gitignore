@@ -2,3 +2,5 @@ node_modules
 .merlin
 npm-debug.log
 lib
+_opam
+_build

@@ -3,8 +3,5 @@ module NoHotreloading = struct
     false
 end
 
-#if BYTECODE then
-  include Reprocessing_Hotreload_Bytecode
-#else
-  include NoHotreloading
-#end
+
+include NoHotreloading

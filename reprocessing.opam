@@ -1,0 +1,16 @@
+opam-version: "2.0"
+synopsis: "Melange graphics library inspired by Processing"
+description: "Melange graphics library inspired by Processing"
+maintainer: ["Matheus Henrique"]
+authors: ["Matheus Henrique"]
+license: "MIT"
+homepage: "https://github.com/mxthevs/reprocessing"
+bug-reports: "https://github.com/mxthevs/reprocessing/issues"
+depends: [
+  "ocaml"
+  "dune"
+  "melange"
+  "reason"
+  "@bsansouci/reasongl-web"
+]
+dev-repo: "git+https://github.com/mxthevs/reprocessing.git"

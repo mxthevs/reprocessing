@@ -1,0 +1,10 @@
+(include_subdirs unqualified)
+
+(dirs src)
+
+(library
+ (name reprocessing)
+ (modes melange)
+ (libraries @bsansouci/reasongl-web)
+ (preprocess
+  (pps melange.ppx)))

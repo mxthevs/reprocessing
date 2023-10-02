@@ -2,20 +2,14 @@
   "name": "reprocessing",
   "version": "1.0.0",
   "description": "Processing library for Reason",
-  "scripts": {
-    "build": "bsb -make-world",
-    "clean": "bsb -clean-world"
-  },
-  "dependencies": {
-    "@bsansouci/reasongl-web": "^1.0.1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schmavery/reprocessing.git"
+    "url": "git+https://github.com/mxthevs/reprocessing.git"
   },
-  "homepage": "https://github.com/Schmavery/reprocessing#readme",
-  "bugs": "https://github.com/Schmavery/reprocessing/issues",
+  "homepage": "https://github.com/mxthevs/reprocessing#readme",
+  "bugs": "https://github.com/mxthevs/reprocessing/issues",
   "keywords": [
+    "melange",
     "reason",
     "processing",
     "graphics",
@@ -23,8 +17,5 @@
     "webgl"
   ],
   "license": "MIT",
-  "author": "bsansouci & schmavery",
-  "devDependencies": {
-    "bs-platform": "^8.3.3"
-  }
+  "author": "bsansouci & schmavery"
 }
